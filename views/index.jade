@@ -1,0 +1,15 @@
+extends layout
+
+block styles
+  link(rel="stylesheet", href="/css/index.css")
+
+block content
+  h1= title
+  h4 Know the current weather conditions for all your favorite places!
+  br
+  br
+  #weatherImage
+
+block scripts
+  script(src='/bower_components/firebase/firebase.js')
+  script(src='/js/index.js')

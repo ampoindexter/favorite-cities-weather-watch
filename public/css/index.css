@@ -1,0 +1,11 @@
+#weatherImage {
+  background-image: url("http://wwwcache.wral.com/asset/weather/2012/02/02/10677656/248687-What_s_the_Weather_logo-640x480.jpg");
+  border: 1px solid transparent;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#homeNav, #logoutNav {
+  display: none;
+}

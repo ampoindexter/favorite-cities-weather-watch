@@ -1,0 +1,25 @@
+{
+  "name": "api-tracker-with-user-auth",
+  "authors": [
+    "Alicia Poindexter <alcampbel@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/ampoindexter/project-template",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "firebase": "^2.4.0",
+    "bootswatch-dist": "superhero",
+    "sweetalert": "^1.1.3"
+  }
+}

@@ -1,0 +1,25 @@
+extends layout
+
+block styles
+  link(rel="stylesheet", href="/css/register.css")
+
+block content
+  h1= title
+  h4 Sign up for a new account here!
+  br
+  br
+  .jumbotron
+    form
+      .form-group
+        label(for='email') Email address
+        input#email.form-control(type='email', placeholder='name@email.com', required='true')
+      .form-group
+        label(for='password') Password
+        input#password.password.form-control(type='password', placeholder='Password', required='true')
+      .form-group
+        label(for='password2') Verify Password
+        input#password2.password.form-control(type='password', placeholder='Enter same password', required='true')
+      button.btn.btn-info(type='submit') Register
+
+block scripts
+  script(src='/js/register.js')

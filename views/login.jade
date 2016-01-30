@@ -1,0 +1,22 @@
+extends layout
+
+block styles
+  link(rel="stylesheet", href="/css/login.css")
+
+block content
+  h1= title
+  h4 Existing accounts, login here!
+  br
+  br
+  .jumbotron
+    form
+      .form-group
+        label(for='email') Email address:
+        input#email.form-control(type='email', placeholder='name@email.com', required='true')
+      .form-group
+        label(for='password') Password:
+        input#password.form-control(type='password', placeholder='Password', required='true')
+      button.btn.btn-success(type='submit') Login
+
+block scripts
+  script(src='/js/login.js')
