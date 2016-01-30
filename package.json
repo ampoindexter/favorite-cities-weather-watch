@@ -7,8 +7,8 @@
   },
   "scripts": {
     "setup": "npm i && bower i",
-    "start": "node app.js",
-    "postinstall": "bower i"
+    "postinstall": "bower i",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "Alicia Poindexter <alcampbel@gmail.com>",
